@@ -1,0 +1,53 @@
+boardSize: 10
+snakes:
+  - head: 62
+    tail: 57
+  - head: 33
+    tail: 27
+  - head: 49
+    tail: 40
+  - head: 88
+    tail: 72
+  - head: 41
+    tail: 21
+  - head: 56
+    tail: 3
+  - head: 98
+    tail: 34
+  - head: 93
+    tail: 20
+  - head: 95
+    tail: 22
+ladders:
+  - bottom: 2
+    top: 37
+  - bottom: 28
+    top: 46
+  - bottom: 10
+    top: 32
+  - bottom: 51
+    top: 68
+  - bottom: 61
+    top: 79
+  - bottom: 65
+    top: 84
+  - bottom: 71
+    top: 91
+  - bottom: 81
+    top: 100
+crocodiles:
+  - position: 9
+  - position: 6
+mines:
+  - position: 35
+  - position: 7
+  - position: 54
+players:
+  - name: Gaurav
+    position: 62
+  - name: Sagar
+    position: 0
+movementStrategy: MAX
+manualOverride: true
+numOfDice: 1
+
